@@ -116,14 +116,6 @@ public class Elevator {
         callList.removeAll(toRemoveFromCallList);
 
 
-//        if (user.getWeight() + currentLoadKg > maxWorkloadKg){ return false; }
-//        if (currentCountOfPeoples + 1 > peopleCapacity){ return false; }
-//        currentCountOfPeoples++;
-//        currentLoadKg += user.getWeight();
-//        callList.remove(user);
-//        elevatorSeats.add(user);
-//
-//        return true;
     }
 
     public void callTheElevator(ElevatorUser caller){
